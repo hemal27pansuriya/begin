@@ -32,7 +32,7 @@ export default function TextForm(props) {
 
     return (
         <>
-            <div class Name='container' style={{color: mode === 'dark' ? 'white' : 'black'}}>
+            <div className='container' style={{color: mode === 'dark' ? 'white' : 'black'}}>
                 <h3>{props.heading}</h3>
                 <div className="mb-3">
                     <textarea className="form-control" style={{backgroundColor: mode === 'dark' ? '#042743' : 'white', color: mode === 'dark' ? 'white' : 'black'}} value={text} onChange={handleOnChange} id="myBox" rows="10"></textarea>
